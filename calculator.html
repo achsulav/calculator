@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML CSS</title>
+            <meta charset="UTF-8"/>
+            <link href="style.css" rel="stylesheet"/>
+    <title>CALCULATOR</title>
+    <style>
+        .calculator {
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+input[type="text"], button {
+  padding: 10px;
+  font-size: 25px;
+  
+  margin: 10px;
+  border-radius: 5px;
+}
+
+button {
+  background-color:red;
+  color: pink
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+    </style>
+  </head>
+  <body>
+    <h1 class="cl1" style="color: red;font-size: 60px;">
+        <i>CALCULATOR</i>
+    </h1>
+    
+    
+    <div class="calculator">
+      <input type="text" id="num1" placeholder="Enter a number">
+      <input type="text" id="num2" placeholder="Enter another number">
+      <br>
+      <button onclick="add()">+</button>
+      <button onclick="subtract()">-</button>
+      
+      <br>
+      <input type="text" id="result" placeholder="Result" disabled>
+    </div>
+    <script src="script.js"></script>
+
+    <p>
+        <b> <u> <i> Method to use: </i> </u>
+        
+        
+        
+        
+        
+        
+        
+          <br>
+         (1) Enter a number
+        <br>
+        
+        
+        (2) Enter a second number
+        <br>
+        
+        
+        (3) Select a operator
+        <br>
+        
+        
+        (4) Result will be shown on screen
+    
+
+    </p>
+  </body>
+</html>
+
+
+
